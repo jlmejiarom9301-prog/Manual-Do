@@ -1,0 +1,108 @@
+{
+  "id": "final-exam",
+  "title": "Evaluación Final · Inducción Inter-Con 2026",
+  "passPct": 70,
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "1. ¿En qué año comenzó operaciones Inter-Con?",
+      "options": [{ "id": "a", "text": "1973" }, { "id": "b", "text": "1987" }, { "id": "c", "text": "2001" }],
+      "correctId": "a",
+      "explanation": "Inter-Con nació en 1973."
+    },
+    {
+      "type": "mcq",
+      "prompt": "2. ¿Cuál es la visión de Inter-Con?",
+      "options": [
+        { "id": "a", "text": "Consolidarnos como empresa líder en seguridad privada, impulsando un México más seguro" },
+        { "id": "b", "text": "Ser la empresa con más sucursales del país" },
+        { "id": "c", "text": "Vender uniformes de seguridad" }
+      ],
+      "correctId": "a",
+      "explanation": "Esa es nuestra visión oficial."
+    },
+    {
+      "type": "truefalse",
+      "prompt": "3. Está permitido recibir regalos de un cliente si es \"solo un detalle\".",
+      "correctBool": false,
+      "explanation": "Nunca está permitido recibir regalos o remuneración por el servicio."
+    },
+    {
+      "type": "mcq",
+      "prompt": "4. ¿Cuál es la primera intervención dentro de la ruta de responsabilidades?",
+      "options": [{ "id": "a", "text": "Amonestación escrita" }, { "id": "b", "text": "Rescisión de contrato" }, { "id": "c", "text": "Suspensión de 2 días" }],
+      "correctId": "a",
+      "explanation": "La ruta comienza con una amonestación escrita."
+    },
+    {
+      "type": "mcq",
+      "prompt": "5. Según la Ley Federal de Seguridad Privada, ¿a qué modalidad pertenece Inter-Con?",
+      "options": [{ "id": "a", "text": "Seguridad en los bienes" }, { "id": "b", "text": "Seguridad a personas" }, { "id": "c", "text": "Traslado de valores" }],
+      "correctId": "a",
+      "explanation": "Inter-Con opera bajo la modalidad II: Seguridad en los Bienes."
+    },
+    {
+      "type": "truefalse",
+      "prompt": "6. Un guardia de seguridad privada puede trasladar por su cuenta a un detenido al Ministerio Público.",
+      "correctBool": false,
+      "explanation": "Eso corresponde únicamente a la seguridad pública."
+    },
+    {
+      "type": "mcq",
+      "prompt": "7. ¿Cuál es el primer nivel del uso de la fuerza que debe agotarse?",
+      "options": [{ "id": "a", "text": "Presencia de autoridad" }, { "id": "b", "text": "Armas de fuego" }, { "id": "c", "text": "Reducción física de movimientos" }],
+      "correctId": "a",
+      "explanation": "Siempre se comienza por la sola presencia de autoridad."
+    },
+    {
+      "type": "order",
+      "prompt": "8. Ordena los pasos del control de accesos peatonal.",
+      "steps": [
+        { "id": "1", "text": "Identificación" },
+        { "id": "2", "text": "Autorización" },
+        { "id": "3", "text": "Registro" },
+        { "id": "4", "text": "Revisión" },
+        { "id": "5", "text": "Acreditación" }
+      ],
+      "explanation": "Este es el flujo correcto del control de accesos peatonal."
+    },
+    {
+      "type": "mcq",
+      "prompt": "9. ¿Cuáles son las 4 características de un buen reporte?",
+      "options": [
+        { "id": "a", "text": "Objetivo, veraz, oportuno y concreto" },
+        { "id": "b", "text": "Largo, detallado, anónimo y tardío" },
+        { "id": "c", "text": "Verbal únicamente" }
+      ],
+      "correctId": "a",
+      "explanation": "Un reporte debe ser objetivo, veraz, oportuno y concreto."
+    },
+    {
+      "type": "order",
+      "prompt": "10. Ordena el protocolo PAS de primeros auxilios.",
+      "steps": [
+        { "id": "1", "text": "Proteger" },
+        { "id": "2", "text": "Avisar" },
+        { "id": "3", "text": "Socorrer" }
+      ],
+      "explanation": "PAS: Proteger, Avisar, Socorrer."
+    },
+    {
+      "type": "mcq",
+      "prompt": "11. Si recibes una llamada sospechosa pidiendo datos del jefe de servicio, ¿qué debes hacer?",
+      "options": [
+        { "id": "a", "text": "No dar información, registrar el número y notificar al supervisor" },
+        { "id": "b", "text": "Dar el dato porque parece urgente" },
+        { "id": "c", "text": "Colgar sin registrar nada" }
+      ],
+      "correctId": "a",
+      "explanation": "Nunca compartas información; registra y notifica siempre al supervisor."
+    },
+    {
+      "type": "truefalse",
+      "prompt": "12. La discriminación por condición social, género o religión está permitida si el visitante lo solicita.",
+      "correctBool": false,
+      "explanation": "La discriminación nunca está permitida en Inter-Con, bajo ninguna circunstancia."
+    }
+  ]
+}

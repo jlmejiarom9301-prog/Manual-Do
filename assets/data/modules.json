@@ -1,0 +1,83 @@
+[
+  {
+    "id": "modulo-01",
+    "order": 1,
+    "title": "Bienvenida a Inter-Con",
+    "subtitle": "Nuestra identidad, mística y razón de ser",
+    "hero": "assets/images/photos/hero-bienvenida.jpeg",
+    "estimatedMinutes": 14,
+    "xpTotal": 150
+  },
+  {
+    "id": "modulo-02",
+    "order": 2,
+    "title": "Lo Mejor de Ser Guardia IC",
+    "subtitle": "Tu bienestar, tu desarrollo, tu futuro",
+    "hero": "assets/images/photos/hero-beneficios.png",
+    "estimatedMinutes": 8,
+    "xpTotal": 90
+  },
+  {
+    "id": "modulo-03",
+    "order": 3,
+    "title": "Así Trabajamos en Inter-Con",
+    "subtitle": "Lo que nos hace diferentes",
+    "hero": "assets/images/photos/hero-asi-trabajamos.jpeg",
+    "estimatedMinutes": 16,
+    "xpTotal": 170
+  },
+  {
+    "id": "modulo-04",
+    "order": 4,
+    "title": "Lo Que Debes Saber del Marco Legal",
+    "subtitle": "Sin complicarte",
+    "hero": "assets/images/photos/hero-marco-legal.jpeg",
+    "estimatedMinutes": 9,
+    "xpTotal": 95
+  },
+  {
+    "id": "modulo-05",
+    "order": 5,
+    "title": "Derechos Humanos",
+    "subtitle": "Lo esencial para tu día a día",
+    "hero": "assets/images/photos/hero-derechos-humanos.jpeg",
+    "estimatedMinutes": 8,
+    "xpTotal": 90
+  },
+  {
+    "id": "modulo-06",
+    "order": 6,
+    "title": "Guía Rápida de la Operación",
+    "subtitle": "Control de accesos y más",
+    "hero": "assets/images/photos/hero-operacion.jpeg",
+    "estimatedMinutes": 10,
+    "xpTotal": 100
+  },
+  {
+    "id": "modulo-07",
+    "order": 7,
+    "title": "Guía Rápida de Seguridad e Higiene",
+    "subtitle": "Normas oficiales de seguridad y salud en el trabajo",
+    "hero": "assets/images/photos/hero-seguridad-higiene.png",
+    "estimatedMinutes": 7,
+    "xpTotal": 85
+  },
+  {
+    "id": "modulo-08",
+    "order": 8,
+    "title": "Guía para Emergencias",
+    "subtitle": "¿Cómo reaccionar paso a paso?",
+    "hero": "assets/images/photos/hero-emergencias.png",
+    "estimatedMinutes": 18,
+    "xpTotal": 190
+  },
+  {
+    "id": "modulo-09",
+    "order": 9,
+    "title": "Tu Papel en la Seguridad Logística",
+    "subtitle": "Puntos clave",
+    "hero": "assets/images/photos/hero-seguridad-logistica.jpeg",
+    "estimatedMinutes": 8,
+    "xpTotal": 90
+  }
+]

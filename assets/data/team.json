@@ -1,0 +1,8 @@
+[
+  { "name": "Jaqueline Cortés", "role": "Gerente de DO y Bienestar", "zone": "Nacional", "phone": "—", "initials": "JC" },
+  { "name": "Jessica Díaz", "role": "Coordinadora de Capacitación Op.", "zone": "Nacional", "phone": "55 4733 8465", "initials": "JD" },
+  { "name": "Fernanda Hdz", "role": "Capacitadora", "zone": "Inducción Nacional", "phone": "55 1887 2576", "initials": "FH" },
+  { "name": "Sandra Gallegos", "role": "Capacitadora", "zone": "Metropolitana", "phone": "56 2560 1258", "initials": "SG" },
+  { "name": "Pricila Rivas", "role": "Capacitadora", "zone": "Nor-Oeste y GDL", "phone": "55 5493 9580", "initials": "PR" },
+  { "name": "Luis Martínez", "role": "Capacitador", "zone": "Bajío-Centro-Sur", "phone": "55 3364 7491", "initials": "LM" }
+]

@@ -1,0 +1,72 @@
+{
+  "id": "modulo-07",
+  "order": 7,
+  "title": "Guía Rápida de Seguridad e Higiene",
+  "subtitle": "Normas oficiales de seguridad y salud en el trabajo",
+  "hero": "assets/images/photos/hero-seguridad-higiene.png",
+  "estimatedMinutes": 7,
+  "xpTotal": 85,
+  "intro": {
+    "text": "Las normas de seguridad y salud en el trabajo son disposiciones legales y técnicas que establecen las condiciones mínimas para prevenir accidentes y enfermedades, protegiendo tu integridad física y mental."
+  },
+  "learningPoints": [
+    "Las 4 normas oficiales que aplican a tu servicio",
+    "Cómo se estructura la cápsula informativa de este módulo",
+    "Dónde realizar la actividad de refuerzo"
+  ],
+  "steps": [
+    {
+      "kind": "info",
+      "eyebrow": "Marco normativo",
+      "title": "Normas Oficiales Mexicanas aplicables",
+      "bullets": [
+        "NOM-017-STPS-2008 · Equipo de protección personal",
+        "NOM-026-STPS-2008 · Colores y señales de seguridad e higiene",
+        "NOM-002-STPS-2010 · Prevención y protección contra incendios",
+        "NOM-018-STPS-2015 · Sistema para identificación de peligros por sustancias químicas"
+      ],
+      "body": "Estas normas fomentan entornos laborales seguros y establecen las condiciones mínimas que deben existir en los centros de trabajo."
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Actividad de refuerzo",
+      "title": "Cápsula informativa en dos partes",
+      "bullets": [
+        "1. Revisa el video completo del Módulo 1 y toma notas.",
+        "2. Al terminar, realiza una pequeña evaluación.",
+        "3. Repite el mismo proceso con el Módulo 2.",
+        "4. Al aprobar ambos módulos, continúa con tu manual."
+      ],
+      "body": "Si tienes dudas durante esta actividad, consulta a tu reclutador."
+    },
+    {
+      "kind": "drive",
+      "title": "Formulario de la cápsula de Seguridad e Higiene",
+      "body": "Aquí encontrarás el formulario oficial para completar la actividad de esta cápsula informativa.",
+      "url": "https://forms.gle/vr1WdcpAnpjU8Uoe8",
+      "qr": "assets/images/qr/form-seguridad-higiene.png"
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál norma regula los colores y señales de seguridad e higiene?",
+      "options": [{ "id": "a", "text": "NOM-026-STPS-2008" }, { "id": "b", "text": "NOM-002-STPS-2010" }, { "id": "c", "text": "NOM-018-STPS-2015" }],
+      "correctId": "a",
+      "explanation": "La NOM-026-STPS-2008 regula los colores y señales de seguridad e higiene."
+    },
+    {
+      "type": "truefalse",
+      "prompt": "Las normas de seguridad y salud en el trabajo buscan prevenir accidentes y enfermedades laborales.",
+      "correctBool": true,
+      "explanation": "Correcto, ese es justamente su objetivo."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Qué debes hacer si tienes dudas durante la actividad de este módulo?",
+      "options": [{ "id": "a", "text": "Consultar a tu reclutador" }, { "id": "b", "text": "Omitir la actividad" }, { "id": "c", "text": "Responder al azar" }],
+      "correctId": "a",
+      "explanation": "Ante cualquier duda, siempre consulta a tu reclutador."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "modulo-04",
+  "order": 4,
+  "title": "Lo Que Debes Saber del Marco Legal",
+  "subtitle": "Sin complicarte",
+  "hero": "assets/images/photos/hero-marco-legal.jpeg",
+  "estimatedMinutes": 9,
+  "xpTotal": 95,
+  "intro": {
+    "text": "Ahora conoceremos la información que te ayudará a entender qué y cómo realizar nuestras actividades, así como sus implicaciones legales."
+  },
+  "learningPoints": [
+    "Qué es la seguridad privada y su marco legal",
+    "Conceptos básicos: flagrancia y detención",
+    "Obligaciones y límites de actuación",
+    "Las 7 modalidades de seguridad privada",
+    "Disuasión, prevención y reacción",
+    "Diferencias entre seguridad pública y privada"
+  ],
+  "steps": [
+    {
+      "kind": "info",
+      "eyebrow": "Fundamento legal",
+      "title": "¿Qué es la seguridad privada?",
+      "body": "Ley Federal de Seguridad Privada, Art. 2: es un servicio entre particulares, debidamente regulado, con el objetivo de vigilar, custodiar y salvaguardar personas, bienes e inmuebles. En caso de desastre o siniestro, coadyuvamos con las autoridades competentes.",
+      "bullets": [
+        "Constitución Política de los Estados Unidos Mexicanos",
+        "Ley General del Sistema Nacional de Seguridad Pública",
+        "Ley Federal de Seguridad Privada y su Reglamento",
+        "Leyes y Reglamentos Estatales de Seguridad Privada"
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Conceptos básicos",
+      "title": "Flagrancia y detención",
+      "bullets": [
+        "Flagrancia: cuando alguien es sorprendido cometiendo un delito o inmediatamente después, con evidencia clara.",
+        "Detención: retención momentánea, preventiva y proporcional de quien es sorprendido en flagrancia, para entregarlo de inmediato a la autoridad."
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Concepto clave",
+      "item": {
+        "type": "mcq",
+        "prompt": "¿Cómo se le llama a sorprender a alguien cometiendo un delito o justo después de haberlo cometido?",
+        "options": [{ "id": "a", "text": "Flagrancia" }, { "id": "b", "text": "Detención" }, { "id": "c", "text": "Preservación" }],
+        "correctId": "a",
+        "explanation": "La flagrancia es sorprender a la persona en el momento del delito o inmediatamente después."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Límites de actuación",
+      "title": "Lo que NO podemos hacer (Art. 32 y 33 LFSP)",
+      "bullets": [
+        "No realizar funciones de seguridad pública.",
+        "No usar palabras como \"policía\" o \"agentes investigadores\".",
+        "Usar siempre \"seguridad\" junto con la palabra \"privada\".",
+        "No usar logotipos, insignias o emblemas de otros países.",
+        "No usar uniformes idénticos a los de seguridad pública.",
+        "Nunca tolerar actos de tortura, malos tratos ni tratos crueles o degradantes."
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Modalidades",
+      "title": "Las 7 modalidades de seguridad privada",
+      "bullets": [
+        "I. Seguridad a personas", "II. Seguridad en los bienes (nuestra modalidad en Inter-Con)",
+        "III. Traslado de bienes y valores", "IV. Alarmas y monitoreo electrónico",
+        "V. Seguridad de la información", "VI. Sistemas de prevención y responsabilidades",
+        "VII. Actividades vinculadas (blindaje de vehículos, etc.)"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Nuestra modalidad",
+      "item": {
+        "type": "truefalse",
+        "prompt": "Inter-Con pertenece a la modalidad 2: Seguridad de los Bienes.",
+        "correctBool": true,
+        "explanation": "Correcto, nuestra modalidad es la II: seguridad en los bienes."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Nuestros objetivos",
+      "title": "Disuasión, prevención y reacción",
+      "bullets": [
+        "🛡 Disuasión: generar presencia, mantener actitud firme y cumplir consignas.",
+        "🔎 Prevención: observar, detectar y corregir antes de que un riesgo se vuelva un problema real.",
+        "⚡ Reacción: respuesta inmediata, organizada y efectiva ante riesgos o emergencias."
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Pública vs. Privada",
+      "title": "¿En qué nos diferenciamos?",
+      "bullets": [
+        "Seguridad pública: previene y persigue el delito, actúa en la vía pública, traslada al MP a detenidos en flagrancia.",
+        "Seguridad privada: protege bienes inmuebles y personas, previene pérdidas, actúa en propiedad privada y NO puede trasladar detenidos."
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "En el lugar de los hechos",
+      "title": "Primer respondiente y preservación",
+      "bullets": [
+        "Primer respondiente: quien llega primero a la escena (cualquier autoridad de seguridad pública).",
+        "Preservación del lugar de los hechos: proteger, aislar y conservar la escena tal como se encontró.",
+        "Zona crítica → zona de control → zona general: así se organiza el perímetro."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "¿A qué modalidad pertenece Inter-Con según la Ley Federal de Seguridad Privada?",
+      "options": [{ "id": "a", "text": "Seguridad a personas" }, { "id": "b", "text": "Seguridad en los bienes" }, { "id": "c", "text": "Traslado de valores" }],
+      "correctId": "b",
+      "explanation": "Inter-Con opera bajo la modalidad II: Seguridad en los Bienes."
+    },
+    {
+      "type": "truefalse",
+      "prompt": "Un guardia de seguridad privada puede trasladar por su cuenta a un presunto delincuente al Ministerio Público.",
+      "correctBool": false,
+      "explanation": "Eso corresponde únicamente a la seguridad pública."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena las zonas de control de menor a mayor cercanía al hecho.",
+      "steps": [
+        { "id": "1", "text": "Zona crítica" },
+        { "id": "2", "text": "Zona de control" },
+        { "id": "3", "text": "Zona general" }
+      ],
+      "explanation": "La zona crítica es el área del hecho; la de control rodea la crítica; la general es el perímetro más amplio."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál de estas palabras SIEMPRE debe acompañar el término \"seguridad\" al referirnos a nuestra labor?",
+      "options": [{ "id": "a", "text": "Privada" }, { "id": "b", "text": "Pública" }, { "id": "c", "text": "Nacional" }],
+      "correctId": "a",
+      "explanation": "Siempre debemos usar el término \"seguridad privada\", nunca solo \"seguridad\"."
+    }
+  ]
+}

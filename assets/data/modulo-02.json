@@ -1,0 +1,100 @@
+{
+  "id": "modulo-02",
+  "order": 2,
+  "title": "Lo Mejor de Ser Guardia IC",
+  "subtitle": "Tu bienestar, tu desarrollo, tu futuro",
+  "hero": "assets/images/photos/hero-beneficios.png",
+  "estimatedMinutes": 8,
+  "xpTotal": 90,
+  "intro": {
+    "text": "Para Inter-Con eres importante. Por eso generamos beneficios ideales para reconocer tu esfuerzo y contribuir a tu desarrollo profesional y personal. (La cadena de mando y los planes de capacitación los revisaste en el Módulo 1)."
+  },
+  "learningPoints": [
+    "Tus prestaciones de ley",
+    "Beneficios exclusivos Inter-Con",
+    "Asistencias médicas, dentales y del hogar",
+    "Tu seguro por muerte accidental"
+  ],
+  "steps": [
+    {
+      "kind": "info",
+      "eyebrow": "Prestaciones de ley",
+      "title": "Lo que te corresponde desde el día uno",
+      "bullets": [
+        "Aguinaldo y vacaciones", "Prima vacacional y prima dominical", "Seguridad social e Infonavit",
+        "Ayuda por nacimiento (84 días mujeres / 5 días hombres)", "Capacitación pagada", "Uniforme sin costo"
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Beneficios Inter-Con",
+      "title": "Reconocemos tu esfuerzo",
+      "bullets": [
+        "🏅 Bono del guardia del mes", "🎓 Colbach", "🤝 Apoyo Montepío", "👥 Bono \"tráenos uno\"",
+        "⭐ Bono de acciones destacadas", "💳 Fonacot", "🕊 Ayuda por defunción", "💍 Matrimonio civil"
+      ],
+      "body": "¿Dudas sobre tus beneficios? Escríbenos: 55 1434 8360 · 55 1264 7215 · 55 1882 9500"
+    },
+    {
+      "kind": "quiz",
+      "title": "Prestaciones",
+      "item": {
+        "type": "mcq",
+        "prompt": "¿Cuántos días de ayuda por nacimiento corresponden a las colaboradoras mujeres?",
+        "options": [{ "id": "a", "text": "5 días" }, { "id": "b", "text": "84 días" }, { "id": "c", "text": "No aplica" }],
+        "correctId": "b",
+        "explanation": "84 días para mujeres y 5 días para hombres."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Asistencias",
+      "title": "Cuidamos también a tu familia",
+      "bullets": [
+        "🩺 Check up básico (8 elementos) y 1 mastografía al año",
+        "🚑 Ambulancia terrestre para emergencias (máx. $3,000)",
+        "👓 Examen de la vista gratis + descuento en armazones",
+        "🦷 1 limpieza dental al año",
+        "🔧 Servicio de plomería, electricidad, cerrajería y vidriería (máx. $800)",
+        "📱 Reparación por daño parcial por intento de robo (máx. $1,000)"
+      ],
+      "body": "Asistencia médica, funeraria, legal, dental, psicológica y de hogar. Línea de asistencias: 55 9020 8033 (aplica para titular, cónyuge e hijos menores de 21 años)."
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Seguro por muerte accidental",
+      "title": "Tu tranquilidad y la de tu familia",
+      "body": "Emitido por Zurich Santander Seguros por $100,000.00 M.N. Aplica si eres mayor de 18 y no mayor de 90 años, con cuenta abierta en Santander (el número de póliza es tu número de cuenta). Teléfono de asistencia: 55 51 69 43 00 / 01 800 703 66 00."
+    }
+  ],
+  "quiz": [
+    {
+      "type": "truefalse",
+      "prompt": "El uniforme tiene un costo que se descuenta de tu nómina.",
+      "correctBool": false,
+      "explanation": "El uniforme no tiene costo para el colaborador."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Quién emite el seguro por muerte accidental de Inter-Con?",
+      "options": [{ "id": "a", "text": "Zurich Santander Seguros" }, { "id": "b", "text": "AXA" }, { "id": "c", "text": "GNP" }],
+      "correctId": "a",
+      "explanation": "El seguro es emitido por Zurich Santander Seguros."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál de estos NO es un beneficio exclusivo de Inter-Con?",
+      "options": [{ "id": "a", "text": "Bono del guardia del mes" }, { "id": "b", "text": "Bono de acciones destacadas" }, { "id": "c", "text": "Bono de productividad bancaria" }],
+      "correctId": "c",
+      "explanation": "El bono de productividad bancaria no forma parte de los beneficios de Inter-Con."
+    },
+    {
+      "type": "fillblank",
+      "prompt": "Completa:",
+      "template": "La línea de asistencias (médica, funeraria, legal, dental, psicológica y de hogar) es la ___.",
+      "answer": "55 9020 8033",
+      "wordbank": ["55 9020 8033", "55 1434 8360", "55 4733 8465"],
+      "explanation": "55 9020 8033 es la línea de asistencias para titular, cónyuge e hijos menores de 21 años."
+    }
+  ]
+}

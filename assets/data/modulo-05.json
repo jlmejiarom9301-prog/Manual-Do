@@ -1,0 +1,131 @@
+{
+  "id": "modulo-05",
+  "order": 5,
+  "title": "Derechos Humanos",
+  "subtitle": "Lo esencial para tu día a día",
+  "hero": "assets/images/photos/hero-derechos-humanos.jpeg",
+  "estimatedMinutes": 8,
+  "xpTotal": 90,
+  "intro": {
+    "text": "El conocimiento de los Derechos Humanos es fundamental para todo guardia de seguridad privada porque garantiza un actuar profesional, legal y respetuoso en cada servicio."
+  },
+  "learningPoints": [
+    "Qué son los Derechos Humanos",
+    "Qué es la discriminación y sus tipos",
+    "Los 5 mecanismos de reacción del uso de la fuerza",
+    "Los niveles del uso de la fuerza y cuándo se justifica"
+  ],
+  "steps": [
+    {
+      "kind": "info",
+      "eyebrow": "Derechos Humanos",
+      "title": "¿Qué son y para qué nos sirven?",
+      "body": "Son el conjunto de libertades, facultades y garantías inherentes a toda persona por el simple hecho de ser humana, sin importar nacionalidad, edad, sexo, religión, ideología o condición social.",
+      "bullets": [
+        "Actuar dentro de nuestro marco legal.", "Proteger la dignidad de las personas.",
+        "Prevenir la violencia y el uso inadecuado de la fuerza.", "Brindar un mejor servicio.",
+        "Prevenir responsabilidades legales y sanciones."
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Ejemplos",
+      "title": "Algunos Derechos Humanos",
+      "bullets": ["Derecho a la vida", "Derecho a la libertad", "Derecho a la privacidad", "Derecho a la igualdad y no discriminación"]
+    },
+    {
+      "kind": "video",
+      "title": "Tipos de discriminación",
+      "caption": "La discriminación es el trato injusto o desigual hacia una persona o grupo por raza, género, edad, religión, discapacidad, orientación sexual, condición social u otras características. En Inter-Con no está permitida.",
+      "video": {
+        "id": "video-discriminacion",
+        "title": "Tipos de discriminación",
+        "provider": "drive",
+        "url": "https://drive.google.com/file/d/1nIBWjSJmyV64V8OlW0zUqjoli1W9CUJ5/view?usp=drive_link",
+        "poster": "assets/images/photos/hero-derechos-humanos.jpeg",
+        "qr": "assets/images/qr/video-discriminacion.png"
+      }
+    },
+    {
+      "kind": "quiz",
+      "title": "Discriminación",
+      "item": {
+        "type": "truefalse",
+        "prompt": "En Inter-Con está permitido dar un trato distinto a un visitante por su condición social.",
+        "correctBool": false,
+        "explanation": "La discriminación no está permitida en ninguna de sus formas dentro de Inter-Con."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Uso de la fuerza",
+      "title": "Mecanismos de reacción (Art. 9, Ley Nacional del Uso de la Fuerza)",
+      "bullets": [
+        "1. Controles cooperativos: indicaciones verbales, advertencias o señalización.",
+        "2. Control mediante contacto: intervención momentánea en funciones motrices.",
+        "3. Técnicas de sometimiento o control corporal: impedimento momentáneo y daños menores.",
+        "4. Tácticas defensivas: daño a estructuras corporales no vitales.",
+        "5. Fuerza letal: cese total de funciones corporales."
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Uso de la fuerza",
+      "title": "Niveles, en el orden en que deben agotarse (Art. 11)",
+      "bullets": [
+        "1. Presencia de autoridad (uniforme, equipo y actitud diligente).",
+        "2. Presencia o disuasión verbal (palabras o gesticulaciones).",
+        "3. Reducción física de movimientos (cuerpo a cuerpo).",
+        "4. Uso de armas incapacitantes no letales.",
+        "5. Uso de armas de fuego o fuerza letal (solo ante resistencia de alta peligrosidad)."
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Ordena los niveles",
+      "item": {
+        "type": "order",
+        "prompt": "Ordena los niveles del uso de la fuerza, del primero que debe agotarse al último.",
+        "steps": [
+          { "id": "1", "text": "Presencia de autoridad" },
+          { "id": "2", "text": "Disuasión verbal" },
+          { "id": "3", "text": "Reducción física de movimientos" },
+          { "id": "4", "text": "Armas incapacitantes no letales" }
+        ],
+        "explanation": "Estos niveles siempre deben agotarse en orden antes de escalar al siguiente."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Art. 12",
+      "title": "¿Cuándo se justifica el uso de la fuerza?",
+      "bullets": [
+        "Real: la agresión se materializa en hechos apreciables, no es hipotética.",
+        "Inminente: está próxima a ocurrir y, de no actuar, se consumaría.",
+        "Actual: se presenta en el momento del hecho, no antes ni después."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál es el primer nivel del uso de la fuerza que debe agotarse?",
+      "options": [{ "id": "a", "text": "Presencia de autoridad" }, { "id": "b", "text": "Armas de fuego" }, { "id": "c", "text": "Reducción física" }],
+      "correctId": "a",
+      "explanation": "Siempre se empieza por la sola presencia de autoridad."
+    },
+    {
+      "type": "truefalse",
+      "prompt": "El uso de la fuerza se justifica solo si la agresión es real, inminente y actual.",
+      "correctBool": true,
+      "explanation": "Correcto, así lo establece el Artículo 12 de la Ley Nacional del Uso de la Fuerza."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál de las siguientes es una forma de discriminación prohibida en Inter-Con?",
+      "options": [{ "id": "a", "text": "Trato injusto por condición social" }, { "id": "b", "text": "Registrar a todos los visitantes por igual" }, { "id": "c", "text": "Aplicar el mismo protocolo a todos" }],
+      "correctId": "a",
+      "explanation": "Dar un trato injusto o desigual por cualquier característica personal es discriminación."
+    }
+  ]
+}

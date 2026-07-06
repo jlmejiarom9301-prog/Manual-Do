@@ -1,0 +1,82 @@
+{
+  "id": "modulo-09",
+  "order": 9,
+  "title": "Tu Papel en la Seguridad Logística",
+  "subtitle": "Puntos clave",
+  "hero": "assets/images/photos/hero-seguridad-logistica.jpeg",
+  "estimatedMinutes": 8,
+  "xpTotal": 90,
+  "intro": {
+    "text": "La seguridad logística es el conjunto de acciones y controles que protegen el flujo de productos, información y recursos dentro de una operación, desde la recepción hasta la entrega final."
+  },
+  "learningPoints": [
+    "Qué es la seguridad logística",
+    "Programas internacionales que sigue Inter-Con",
+    "Prevención de adicciones: factores de riesgo"
+  ],
+  "steps": [
+    {
+      "kind": "info",
+      "eyebrow": "Seguridad logística",
+      "title": "Más que vigilar: proteger la cadena completa",
+      "body": "Cada movimiento implica riesgos que pueden afectar la continuidad del servicio, la reputación de la empresa y la seguridad de las personas. Tu labor te convierte en un elemento clave para mantener cadenas logísticas seguras, confiables y libres de riesgos.",
+      "bullets": [
+        "🚚 Contrabando", "🧨 Terrorismo", "☣️ Contaminación de carga", "📦 Robos o manipulación indebida"
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Certificaciones",
+      "title": "Programas internacionales",
+      "body": "En Inter-Con damos seguimiento puntual a programas internacionales que buscan fortalecer la seguridad en la cadena logística, reduciendo los riesgos antes mencionados."
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Actividad de refuerzo",
+      "title": "Microlearning de certificaciones",
+      "body": "Revisa la cápsula informativa correspondiente para reforzar estos conocimientos. Si tienes dudas, consulta a tu reclutador."
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Prevención de adicciones",
+      "title": "Sustancias legales e ilegales",
+      "bullets": [
+        "Legales: alcohol, tabaco, cafeína, medicamentos controlados.",
+        "Ilegales: marihuana, cocaína, metanfetaminas, LSD, opioides ilegales."
+      ],
+      "body": "Factores de riesgo: personales, familiares, sociales y laborales."
+    },
+    {
+      "kind": "quiz",
+      "title": "Reflexión",
+      "item": {
+        "type": "truefalse",
+        "prompt": "\"La decisión más valiente no es probar… es elegir cuidarte.\"",
+        "correctBool": true,
+        "explanation": "Así es. Cuidar tu salud y tu integridad es la decisión más valiente que puedes tomar."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál de los siguientes es un riesgo que busca reducir la seguridad logística?",
+      "options": [{ "id": "a", "text": "Contrabando" }, { "id": "b", "text": "Puntualidad" }, { "id": "c", "text": "Uso del uniforme" }],
+      "correctId": "a",
+      "explanation": "La seguridad logística busca reducir riesgos como contrabando, terrorismo, contaminación de carga y robos."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál de las siguientes es una sustancia legal?",
+      "options": [{ "id": "a", "text": "Cafeína" }, { "id": "b", "text": "Cocaína" }, { "id": "c", "text": "Metanfetaminas" }],
+      "correctId": "a",
+      "explanation": "La cafeína, el alcohol, el tabaco y los medicamentos controlados son sustancias legales (con sus restricciones)."
+    },
+    {
+      "type": "truefalse",
+      "prompt": "Los factores de riesgo de las adicciones pueden ser personales, familiares, sociales y laborales.",
+      "correctBool": true,
+      "explanation": "Correcto, son las 4 categorías de factores de riesgo."
+    }
+  ]
+}

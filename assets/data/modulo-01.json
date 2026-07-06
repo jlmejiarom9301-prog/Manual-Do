@@ -1,0 +1,257 @@
+{
+  "id": "modulo-01",
+  "order": 1,
+  "title": "Bienvenida a Inter-Con",
+  "subtitle": "Nuestra identidad, mística y razón de ser",
+  "hero": "assets/images/photos/hero-bienvenida.jpeg",
+  "estimatedMinutes": 14,
+  "xpTotal": 150,
+  "intro": {
+    "text": "La inducción es el primer paso para integrarnos y entender cómo trabajamos. Este módulo te cuenta quiénes somos, de dónde venimos y qué nos mueve como familia Inter-Con."
+  },
+  "learningPoints": [
+    "Cómo y cuándo nació Inter-Con",
+    "Nuestra misión, visión y valores",
+    "Los pilares que sostienen a la empresa",
+    "Cómo funciona la cadena de mando",
+    "Los planes de capacitación disponibles para ti"
+  ],
+  "steps": [
+    {
+      "kind": "info",
+      "eyebrow": "Antes de empezar",
+      "title": "Así funciona este manual interactivo",
+      "bullets": [
+        "🎥 Toca los videos para reproducirlos aquí mismo, sin salir del curso.",
+        "📱 ¿Prefieres tu celular? Cada video conserva su código QR alternativo.",
+        "📝 Al final de cada módulo responderás una breve evaluación.",
+        "📂 Algunos íconos te llevan a carpetas de Google Drive con material adicional."
+      ],
+      "body": "Encontrarás 9 módulos con la información más relevante para tu día a día como Guardia Inter-Con. ¡Comencemos!"
+    },
+    {
+      "kind": "video",
+      "title": "Nuestra historia",
+      "caption": "Inter-Con empezó en 1973 con una idea que cambió por completo la forma de hacer seguridad. Desde entonces hemos trabajado con la NASA y el Departamento de Estado, y desde 1987 crecimos en México con los valores que nos han mantenido fuertes más de 50 años.",
+      "video": {
+        "id": "video-historia-intercon",
+        "title": "Historia de Inter-Con",
+        "provider": "drive",
+        "url": "https://drive.google.com/file/d/1Hx4CQuU8U2YmGZJ8MarIyPB1_ACCnEHa/view?usp=drive_link",
+        "poster": "assets/images/photos/hero-bienvenida.jpeg",
+        "qr": "assets/images/qr/video-historia-intercon.png"
+      }
+    },
+    {
+      "kind": "quiz",
+      "title": "Repasemos",
+      "item": {
+        "type": "mcq",
+        "prompt": "¿En qué año comenzó operaciones Inter-Con?",
+        "options": [
+          { "id": "a", "text": "1973" },
+          { "id": "b", "text": "1987" },
+          { "id": "c", "text": "1995" }
+        ],
+        "correctId": "a",
+        "explanation": "Correcto: Inter-Con nació en 1973 y llegó a México en 1987, donde lleva más de 50 años operando."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Nuestros clientes",
+      "title": "Trabajamos a la altura de quienes confían en nosotros",
+      "body": "Nuestros clientes son importantes y buscamos brindar servicios que estén a la par de ellos, ofreciendo servicios de calidad a través del desarrollo y preparación de nuestros colaboradores y procesos."
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Misión",
+      "title": "¿Para qué existimos?",
+      "body": "Brindar servicios de seguridad y protección integral con los más altos estándares operativos, salvaguardando personas, bienes e información, para garantizar un entorno seguro, confiable y sostenible para nuestros clientes y colaboradores."
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Visión",
+      "title": "¿A dónde vamos?",
+      "body": "Consolidarnos como una empresa líder en seguridad privada, impulsando un México más seguro, a través de soluciones innovadoras, sostenibles y respaldadas por tecnología de vanguardia."
+    },
+    {
+      "kind": "quiz",
+      "title": "Verdadero o falso",
+      "item": {
+        "type": "truefalse",
+        "prompt": "La misión de Inter-Con habla del futuro que queremos construir como empresa líder en el país.",
+        "correctBool": false,
+        "explanation": "Eso corresponde a la VISIÓN. La misión describe para qué existimos hoy: brindar servicios de seguridad y protección integral."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Nuestra política",
+      "title": "Ética, calidad y responsabilidad social",
+      "bullets": [
+        "✅ Cumplimiento con requisitos legales, regulatorios y contractuales.",
+        "🤝 Respeto a los derechos humanos, igualdad y prácticas laborales justas.",
+        "🚫 Integridad: prevenir contrabando, lavado de activos, corrupción y soborno.",
+        "⭐ Calidad y satisfacción de clientes mediante mejora continua.",
+        "🦺 Seguridad y salud ocupacional en cada operación.",
+        "🔒 Seguridad de la información: confidencialidad, integridad y manejo correcto.",
+        "🌱 Medio ambiente y sostenibilidad en nuestras operaciones.",
+        "📣 Comunicación y mejora continua de esta política en toda la organización."
+      ]
+    },
+    {
+      "kind": "video",
+      "title": "Los pilares de Inter-Con",
+      "caption": "Los pilares de una empresa representan la base que sostiene su crecimiento, estabilidad y capacidad de adaptación.",
+      "video": {
+        "id": "video-pilares",
+        "title": "Pilares de Inter-Con",
+        "provider": "drive",
+        "url": "https://drive.google.com/file/d/1jcgsG5pMkJBpf-5m5pVqpTyCBHrVwrc1/view?usp=drive_link",
+        "poster": "assets/images/photos/hero-pilares.png",
+        "qr": "assets/images/qr/video-pilares.png"
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Nuestros valores",
+      "title": "Lo que nos define todos los días",
+      "bullets": [
+        "Excelencia — superar expectativas con profesionalismo.",
+        "Sustentabilidad — operar con responsabilidad ambiental, económica y social.",
+        "Pasión por lo que hacemos — entusiasmo y vocación de servicio.",
+        "Integridad — honestidad, transparencia y ética.",
+        "Respeto — dignidad hacia compañeros, clientes y comunidad.",
+        "Trabajo en equipo — colaboración y apoyo mutuo.",
+        "Unión — sentido de pertenencia y solidaridad.",
+        "Innovación y creatividad — nuevas ideas y mejoras constantes."
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Flash card",
+      "item": {
+        "type": "flashcard",
+        "front": "🤝<br/>Respeto",
+        "back": "Tratamos con dignidad a compañeros, clientes, proveedores y comunidad."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Estructura",
+      "title": "Cadena de mando",
+      "image": "assets/images/photos/cadena-mando-bg.jpeg",
+      "body": "La cadena de mando ayuda a garantizar el orden, la comunicación y la coordinación entre todos los niveles, asegurando que las instrucciones fluyan correctamente desde los mandos superiores hacia el personal operativo.",
+      "bullets": [
+        "1. Guardia de apoyo",
+        "2. Guardia",
+        "3. Jefe de turno",
+        "4. Jefe de servicio",
+        "5. Supervisor de operaciones",
+        "6. Coordinador de operaciones"
+      ]
+    },
+    {
+      "kind": "video",
+      "title": "Historias de éxito Inter-Con",
+      "caption": "En Inter-Con queremos ayudarte a alcanzar tus metas con beneficios y planes de capacitación que contribuyen a tu desarrollo.",
+      "video": {
+        "id": "video-cadena-mando",
+        "title": "Historias de éxito y desarrollo en Inter-Con",
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=omJltTcU1Ek",
+        "poster": "assets/images/photos/hero-asi-trabajamos.jpeg",
+        "qr": "assets/images/qr/video-cadena-mando.png"
+      }
+    },
+    {
+      "kind": "quiz",
+      "title": "Ordena la cadena de mando",
+      "item": {
+        "type": "order",
+        "prompt": "Ordena la cadena de mando del nivel más operativo al más alto.",
+        "steps": [
+          { "id": "1", "text": "Guardia de apoyo" },
+          { "id": "2", "text": "Guardia" },
+          { "id": "3", "text": "Jefe de turno" },
+          { "id": "4", "text": "Jefe de servicio" },
+          { "id": "5", "text": "Supervisor de operaciones" },
+          { "id": "6", "text": "Coordinador de operaciones" }
+        ],
+        "explanation": "Así fluye la comunicación: desde el guardia de apoyo hasta el coordinador de operaciones, y la información regresa organizada en sentido contrario."
+      }
+    },
+    {
+      "kind": "drive",
+      "title": "Planes y Programas de Capacitación",
+      "body": "Inducción Nacional, Capacitación Continua, Capacitación Específica, vía remota, Beep Quest, Micro-learning y presencial: así contribuimos a tu desarrollo profesional y personal. Consulta el detalle de la capacitación activa este mes en esta carpeta.",
+      "url": "https://drive.google.com/drive/folders/1lyuFT_UZZCODqJ4v47lIyGpeiNDQSKGv",
+      "qr": "assets/images/qr/video-capacitacion-drive.png"
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Bienestar",
+      "title": "Eres muy valioso para nosotros",
+      "body": "En Inter-Con trabajamos para que todas y todos tengan un ambiente laboral seguro, respetuoso y saludable, en cumplimiento con la NOM-035-STPS-2018. Contamos con un canal confidencial para reportar acoso, hostigamiento o violencia laboral: icteescucha@intercon.com.mx"
+    },
+    {
+      "kind": "quiz",
+      "title": "Storytelling",
+      "item": {
+        "type": "scenario",
+        "scene": "Un compañero de tu turno te cuenta, muy angustiado, que su jefe de servicio lo ha hostigado varias veces frente a otros guardias. Te pide que no digas nada. ¿Qué haces?",
+        "choices": [
+          { "id": "a", "text": "Le explicas que existe un canal confidencial (icteescucha@intercon.com.mx) y lo acompañas a reportarlo.", "correct": true, "feedback": "Correcto. Inter-Con garantiza confidencialidad y seguimiento ante cualquier situación que afecte el bienestar del personal." },
+          { "id": "b", "text": "Le dices que mejor lo ignore para evitar problemas.", "correct": false, "feedback": "No es lo correcto: ignorar el hostigamiento pone en riesgo su bienestar y viola nuestra política de ética y derechos humanos." },
+          { "id": "c", "text": "Publicas la queja en redes sociales para presionar a la empresa.", "correct": false, "feedback": "No es el canal adecuado. Inter-Con cuenta con un canal confidencial interno diseñado justo para estos casos." }
+        ]
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "¿Desde qué año opera Inter-Con en México?",
+      "options": [{ "id": "a", "text": "1973" }, { "id": "b", "text": "1987" }, { "id": "c", "text": "2001" }],
+      "correctId": "b",
+      "explanation": "Inter-Con nació en 1973 y creció en México desde 1987."
+    },
+    {
+      "type": "truefalse",
+      "prompt": "La visión de Inter-Con es consolidarse como empresa líder en seguridad privada impulsando un México más seguro.",
+      "correctBool": true,
+      "explanation": "Correcto, esa es exactamente nuestra visión."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena la cadena de mando de menor a mayor jerarquía.",
+      "steps": [
+        { "id": "1", "text": "Guardia" },
+        { "id": "2", "text": "Jefe de turno" },
+        { "id": "3", "text": "Jefe de servicio" },
+        { "id": "4", "text": "Supervisor de operaciones" }
+      ],
+      "explanation": "La cadena de mando garantiza orden y comunicación en toda la organización."
+    },
+    {
+      "type": "fillblank",
+      "prompt": "Completa el valor institucional:",
+      "template": "___ significa tratar con dignidad a compañeros, clientes, proveedores y comunidad.",
+      "answer": "Respeto",
+      "wordbank": ["Respeto", "Excelencia", "Unión", "Pasión"],
+      "explanation": "El Respeto es uno de nuestros 8 valores institucionales."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Si un colaborador vive una situación de acoso laboral, ¿a dónde puede acudir de forma confidencial?",
+      "options": [
+        { "id": "a", "text": "icteescucha@intercon.com.mx" },
+        { "id": "b", "text": "Redes sociales de la empresa" },
+        { "id": "c", "text": "No hay canal disponible" }
+      ],
+      "correctId": "a",
+      "explanation": "Inter-Con cuenta con un canal confidencial de escucha y seguimiento para estos casos."
+    }
+  ]
+}

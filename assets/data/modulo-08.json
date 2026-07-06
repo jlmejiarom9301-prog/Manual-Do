@@ -1,0 +1,270 @@
+{
+  "id": "modulo-08",
+  "order": 8,
+  "title": "Guía para Emergencias",
+  "subtitle": "¿Cómo reaccionar paso a paso?",
+  "hero": "assets/images/photos/hero-emergencias.png",
+  "estimatedMinutes": 18,
+  "xpTotal": 190,
+  "intro": {
+    "text": "No te preocupes, nosotros te ayudamos a conocer los protocolos generales ante emergencias que se pueden presentar en nuestros servicios: sismo, inundación, asalto, amenaza de bomba, corto circuito/fuga de gas y primeros auxilios."
+  },
+  "learningPoints": [
+    "Protocolo antes / durante / después de un sismo",
+    "Protocolo ante inundaciones",
+    "Protocolo ante un asalto",
+    "Qué hacer ante una amenaza de bomba",
+    "Corto circuito y fugas de gas o agua",
+    "Primeros auxilios: protocolo PAS"
+  ],
+  "steps": [
+    {
+      "kind": "info",
+      "eyebrow": "Panorama general",
+      "title": "Emergencias más comunes en el servicio",
+      "bullets": ["🌎 Sismo", "🌊 Inundación", "🔫 Asalto", "💣 Amenaza de bomba", "⚡ Corto circuito / fuga de gas", "🩹 Primeros auxilios"],
+      "body": "Estos protocolos garantizan una respuesta rápida, organizada y segura ante cualquier situación que ponga en riesgo la integridad de las personas, instalaciones o bienes."
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Sismo · Antes",
+      "title": "Prepárate antes de que ocurra",
+      "bullets": [
+        "Identifica a los brigadistas y conoce tu límite de actuación.",
+        "Conoce las rutas de evacuación.",
+        "Identifica y reporta condiciones inseguras.",
+        "Participa en los simulacros."
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Sismo · Durante",
+      "title": "Mantén la calma y actúa",
+      "bullets": [
+        "Mantén la calma y da indicaciones claras.",
+        "Evita el uso de elevadores y escaleras.",
+        "Resguárdate en zonas de menor riesgo."
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Sismo",
+      "item": {
+        "type": "order",
+        "prompt": "Ordena correctamente estas acciones durante un sismo.",
+        "steps": [
+          { "id": "1", "text": "Mantén la calma y da indicaciones claras" },
+          { "id": "2", "text": "Evita elevadores y escaleras" },
+          { "id": "3", "text": "Resguárdate en zonas de menor riesgo" }
+        ],
+        "explanation": "Estas acciones se realizan durante el sismo, en ese orden de prioridad."
+      }
+    },
+    {
+      "kind": "quiz",
+      "title": "Simulación: sismo",
+      "item": {
+        "type": "scenario",
+        "timerSeconds": 20,
+        "scene": "⏱ El edificio empieza a temblar fuerte mientras estás en tu caseta de control de accesos, cerca de un elevador. ¿Qué haces primero?",
+        "choices": [
+          { "id": "a", "text": "Te alejas del elevador, te resguardas en una zona de menor riesgo y esperas indicaciones.", "correct": true, "feedback": "Correcto: nunca uses elevadores durante un sismo; busca zonas seguras y mantén la calma." },
+          { "id": "b", "text": "Corres hacia el elevador para bajar rápido.", "correct": false, "feedback": "Nunca uses elevadores durante un sismo: pueden quedar atrapados o fallar." },
+          { "id": "c", "text": "Te quedas exactamente donde estás sin evaluar el entorno.", "correct": false, "feedback": "Debes identificar y moverte a una zona de menor riesgo, no simplemente quedarte inmóvil sin evaluar." }
+        ]
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Inundación",
+      "title": "Antes, durante y después",
+      "bullets": [
+        "Antes: identifica zonas de riesgo, brigadistas y protocolos.",
+        "Durante: interrumpe suministros, apoya con la evacuación y ve a lugares altos.",
+        "Después: sigue instrucciones de autoridades, retírate de zonas de riesgo e informa daños a Protección Civil."
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Asalto",
+      "title": "Protocolo ante un asalto",
+      "bullets": [
+        "Antes: identifica actividades sospechosas y mantén cerrados los controles de acceso.",
+        "Durante: prioriza la seguridad de las personas por encima de los bienes.",
+        "Después: reporta a las autoridades, colabora y preserva el lugar de los hechos."
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Simulación: asalto",
+      "item": {
+        "type": "scenario",
+        "timerSeconds": 20,
+        "scene": "⏱ Dos personas armadas ingresan de forma violenta al vestíbulo que resguardas y exigen el efectivo de la caja. ¿Cuál es tu prioridad?",
+        "choices": [
+          { "id": "a", "text": "Priorizas la integridad de las personas, no opones resistencia física y observas detalles para tu reporte posterior.", "correct": true, "feedback": "Correcto: la vida de las personas está primero. Después reportarás a la autoridad y preservarás el lugar de los hechos." },
+          { "id": "b", "text": "Intentas reducir físicamente a los asaltantes tú solo.", "correct": false, "feedback": "Enfrentarlos sin apoyo pone en riesgo tu vida y la de terceros. Nuestro límite de actuación no incluye el uso de fuerza letal en estos casos." },
+          { "id": "c", "text": "Persigues a los asaltantes cuando huyen.", "correct": false, "feedback": "No es tu función perseguir a los delincuentes; reporta a la autoridad y preserva el lugar de los hechos." }
+        ]
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Amenaza de bomba",
+      "title": "Qué hacer si recibes una amenaza",
+      "bullets": [
+        "Antes: conoce tu protocolo interno y nunca recibas paquetería sospechosa (sin destinatario, abierta o con olor extraño).",
+        "Durante: no manipules objetos sospechosos, aísla el área y aleja a las personas.",
+        "Después: colabora con las autoridades y elabora un reporte detallado sin difundir información a terceros."
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Amenaza de bomba",
+      "item": {
+        "type": "mcq",
+        "prompt": "Si recibes una llamada de amenaza de bomba, ¿qué debes hacer primero?",
+        "options": [
+          { "id": "a", "text": "Recopilar toda la información posible y notificar al supervisor" },
+          { "id": "b", "text": "Colgar de inmediato sin anotar nada" },
+          { "id": "c", "text": "Anunciarlo por altavoz a todo el edificio tú mismo" }
+        ],
+        "correctId": "a",
+        "explanation": "Debes recopilar toda la información de la llamada y notificar de inmediato al supervisor, siguiendo el protocolo interno."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Corto circuito / fuga de gas",
+      "title": "Riesgos eléctricos e hidráulicos",
+      "bullets": [
+        "Antes: identifica válvulas de cierre de gas/agua e interruptores eléctricos.",
+        "Durante: aísla el área, evacúa y cierra la válvula o interrumpe el suministro.",
+        "Después: asegúrate de que solo personal especializado haga reparaciones."
+      ]
+    },
+    {
+      "kind": "video",
+      "title": "Manual de emergencias completo",
+      "caption": "Consulta el manual de emergencias con el detalle de cada protocolo.",
+      "video": {
+        "id": "video-manual-emergencias",
+        "title": "Manual de emergencias Inter-Con",
+        "provider": "drive",
+        "url": "https://drive.google.com/file/d/1plrB9nbaUr8etmY1prXf8Z73WgAr0ouy/view?usp=drive_link",
+        "poster": "assets/images/photos/hero-emergencias.png",
+        "qr": "assets/images/qr/video-manual-emergencias.png"
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Primeros auxilios",
+      "title": "Protocolo PAS",
+      "body": "Los primeros auxilios son acciones inmediatas ante un accidente o enfermedad repentina, con el fin de salvar la vida y evitar complicaciones, antes de recibir atención médica profesional.",
+      "bullets": [
+        "🛡 PROTEGER: asegura el lugar y evita nuevos riesgos.",
+        "📞 AVISAR: llama a emergencias (911) e informa con claridad qué ocurrió.",
+        "🤲 SOCORRER: brinda primeros auxilios básicos, dentro de tus conocimientos."
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Protocolo PAS",
+      "item": {
+        "type": "order",
+        "prompt": "Ordena correctamente el protocolo PAS de primeros auxilios.",
+        "steps": [
+          { "id": "1", "text": "PROTEGER: asegurar el lugar" },
+          { "id": "2", "text": "AVISAR: llamar a emergencias" },
+          { "id": "3", "text": "SOCORRER: brindar primeros auxilios básicos" }
+        ],
+        "explanation": "PAS: Proteger, Avisar, Socorrer — en ese orden estricto."
+      }
+    },
+    {
+      "kind": "quiz",
+      "title": "Principios de primeros auxilios",
+      "item": {
+        "type": "truefalse",
+        "prompt": "Ante una persona lesionada, debes moverla de inmediato para que esté más cómoda.",
+        "correctBool": false,
+        "explanation": "Nunca muevas al lesionado salvo que su vida corra peligro donde está. Mantén la calma y evalúa la zona primero."
+      }
+    }
+  ],
+  "simulation": {
+    "title": "Simulación integradora: emergencia en cadena",
+    "intro": "Durante un mismo turno se presentan distintas emergencias. Aplica el protocolo correcto en cada una.",
+    "scenes": [
+      {
+        "type": "scenario",
+        "timerSeconds": 20,
+        "scene": "⏱ Escena 1: Detectas un fuerte olor a gas cerca del cuarto de máquinas. ¿Qué haces primero?",
+        "choices": [
+          { "id": "a", "text": "Aíslas el área, evacúas a las personas cercanas y cierras la válvula de suministro si es seguro hacerlo.", "correct": true, "feedback": "Correcto: aislar, evacuar y controlar la fuente son las prioridades inmediatas." },
+          { "id": "b", "text": "Enciendes la luz del cuarto para ver mejor.", "correct": false, "feedback": "Nunca actives interruptores eléctricos ante una fuga de gas: podría generar una chispa peligrosa." }
+        ]
+      },
+      {
+        "type": "scenario",
+        "scene": "Escena 2: Minutos después, comienza un sismo mientras el área sigue aislada. ¿Qué haces?",
+        "choices": [
+          { "id": "a", "text": "Guías a las personas a una zona de menor riesgo, lejos de elevadores y del área aislada por la fuga.", "correct": true, "feedback": "Correcto: combinar ambos protocolos con calma protege a todos." },
+          { "id": "b", "text": "Regresas corriendo al área de la fuga para revisarla durante el sismo.", "correct": false, "feedback": "Nunca regreses a una zona de riesgo activo durante un sismo; prioriza zonas seguras." }
+        ]
+      },
+      {
+        "type": "scenario",
+        "scene": "Escena 3: Tras el sismo, un compañero se golpeó al resguardarse y sangra de un brazo. ¿Qué haces?",
+        "choices": [
+          { "id": "a", "text": "Aplicas el protocolo PAS: proteges el área, avisas a emergencias y brindas primeros auxilios básicos.", "correct": true, "feedback": "Excelente: el protocolo PAS aplica siempre, sin importar el origen de la emergencia." },
+          { "id": "b", "text": "Le das medicamentos que traes en tu mochila.", "correct": false, "feedback": "Nunca medicar a un lesionado; eso está fuera del límite de actuación de primeros auxilios básicos." }
+        ]
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "Durante un sismo, ¿qué debes evitar?",
+      "options": [{ "id": "a", "text": "Usar elevadores" }, { "id": "b", "text": "Resguardarte en zonas seguras" }, { "id": "c", "text": "Mantener la calma" }],
+      "correctId": "a",
+      "explanation": "Nunca uses elevadores ni escaleras durante un sismo."
+    },
+    {
+      "type": "order",
+      "prompt": "Ordena el protocolo PAS.",
+      "steps": [
+        { "id": "1", "text": "Proteger" },
+        { "id": "2", "text": "Avisar" },
+        { "id": "3", "text": "Socorrer" }
+      ],
+      "explanation": "PAS: Proteger, Avisar, Socorrer."
+    },
+    {
+      "type": "scenario",
+      "scene": "Recibes un paquete sin remitente, con olor extraño, dejado en recepción. ¿Qué haces?",
+      "choices": [
+        { "id": "a", "text": "No lo manipulas, aíslas el área y notificas al supervisor de inmediato.", "correct": true, "feedback": "Correcto: nunca manipules objetos sospechosos." },
+        { "id": "b", "text": "Lo abres para revisar qué contiene.", "correct": false, "feedback": "Nunca manipules un objeto sospechoso; aísla el área y notifica." }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "prompt": "Ante un asalto, tu prioridad es proteger la integridad de las personas, no los bienes materiales.",
+      "correctBool": true,
+      "explanation": "Correcto. La vida de las personas siempre está primero."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Qué debes hacer al detectar una fuga de gas?",
+      "options": [
+        { "id": "a", "text": "Encender la luz para ver mejor" },
+        { "id": "b", "text": "Cerrar la válvula de suministro y evacuar el área" },
+        { "id": "c", "text": "Ignorarlo si no hay mucho olor" }
+      ],
+      "correctId": "b",
+      "explanation": "Corta el suministro si es seguro, evacúa y notifica; nunca uses interruptores eléctricos en el área."
+    }
+  ]
+}

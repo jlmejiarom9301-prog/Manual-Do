@@ -1,0 +1,98 @@
+/*
+  DESIGN TOKENS — Inter-Con Academy
+  Identidad corporativa: azul institucional, blanco, gris, dorado.
+  Todo el sistema visual se basa en estas variables. No usar colores
+  "hardcoded" en otros archivos: siempre referenciar tokens.
+*/
+:root {
+  /* ---- Marca ---- */
+  --ic-navy-900: #071a35;
+  --ic-navy-800: #0a244a;
+  --ic-navy-700: #0f2f5c;
+  --ic-navy-600: #163d73;
+  --ic-navy-500: #1f4d8f;
+  --ic-gold-600: #c98f1f;
+  --ic-gold-500: #e5a92e;
+  --ic-gold-400: #f0b93f;
+  --ic-gold-300: #f5cd6c;
+  --ic-gray-900: #1b1f24;
+  --ic-gray-700: #464d57;
+  --ic-gray-500: #757e8c;
+  --ic-gray-300: #c6ccd4;
+  --ic-gray-200: #e3e7ec;
+  --ic-gray-100: #f2f4f7;
+  --ic-white: #ffffff;
+
+  /* ---- Semántico ---- */
+  --color-bg: var(--ic-gray-100);
+  --color-surface: var(--ic-white);
+  --color-primary: var(--ic-navy-700);
+  --color-primary-strong: var(--ic-navy-900);
+  --color-accent: var(--ic-gold-500);
+  --color-accent-strong: var(--ic-gold-600);
+  --color-text: var(--ic-gray-900);
+  --color-text-muted: var(--ic-gray-500);
+  --color-border: var(--ic-gray-200);
+  --color-success: #1c8a5b;
+  --color-danger: #c9432f;
+  --color-info: #2372c9;
+
+  /* ---- Tipografía ---- */
+  --font-display: "Poppins", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: 2.25rem;
+
+  /* ---- Espaciado (escala 4px) ---- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+
+  /* ---- Radios y sombras ---- */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 2px 8px rgba(10, 36, 74, 0.08);
+  --shadow-md: 0 8px 24px rgba(10, 36, 74, 0.12);
+  --shadow-lg: 0 16px 40px rgba(10, 36, 74, 0.18);
+  --shadow-gold: 0 6px 18px rgba(201, 143, 31, 0.35);
+
+  /* ---- Layout ---- */
+  --app-max-width: 480px;
+  --header-height: 64px;
+  --tabbar-height: 68px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  /* ---- Motion ---- */
+  --ease-out: cubic-bezier(.16,1,.3,1);
+  --ease-spring: cubic-bezier(.34,1.56,.64,1);
+  --dur-fast: 150ms;
+  --dur-med: 280ms;
+  --dur-slow: 480ms;
+}
+
+@media (min-width: 431px) {
+  :root {
+    --app-max-width: 520px;
+  }
+}
+
+@media (min-width: 900px) {
+  :root {
+    --app-max-width: 1080px;
+  }
+}

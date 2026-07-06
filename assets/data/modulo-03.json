@@ -1,0 +1,310 @@
+{
+  "id": "modulo-03",
+  "order": 3,
+  "title": "Así Trabajamos en Inter-Con",
+  "subtitle": "Lo que nos hace diferentes",
+  "hero": "assets/images/photos/hero-asi-trabajamos.jpeg",
+  "estimatedMinutes": 16,
+  "xpTotal": 170,
+  "intro": {
+    "text": "¿Qué se espera de un guardia de seguridad privada? ¿Cuáles son las consignas generales que debe seguir? En este módulo lo descubrimos, junto con nuestro uniforme, la prevención de corrupción y soborno, y cómo proteger la información."
+  },
+  "learningPoints": [
+    "Lineamientos de conducta y la ruta de responsabilidades",
+    "Consignas generales del servicio",
+    "Uso correcto del uniforme y cuidado de la imagen",
+    "Cómo identificar y actuar ante corrupción y soborno",
+    "Seguridad de la información y protocolo ante filtraciones",
+    "Qué hacer ante llamadas de extorsión"
+  ],
+  "steps": [
+    {
+      "kind": "info",
+      "eyebrow": "Lineamientos de conducta",
+      "title": "Nuestro compromiso como colaboradores",
+      "bullets": [
+        "Procuro el bien de la empresa por encima de cualquier interés personal.",
+        "Mantengo una relación de respeto y honestidad con mis compañeros.",
+        "Mi asistencia y puntualidad reflejan mi responsabilidad.",
+        "Mantengo mi área de trabajo segura, limpia y ordenada.",
+        "Trabajo en equipo, con calidad, haciendo las cosas bien a la primera."
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "En el servicio",
+      "title": "Lo que siempre debes considerar",
+      "bullets": [
+        "Uso adecuado de materiales, equipos, mobiliario y vehículos asignados.",
+        "Cuido la documentación e información a mi cargo (evito la fuga de información).",
+        "No tengo relaciones sentimentales o de amistad con personal del servicio.",
+        "No recibo regalos ni remuneración por mis servicios o trato especial.",
+        "Mi trato es siempre respetuoso, amable y confiable."
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Verdadero o falso",
+      "item": {
+        "type": "truefalse",
+        "prompt": "Está permitido recibir una propina o regalo de un visitante si fue \"solo por amabilidad\".",
+        "correctBool": false,
+        "explanation": "Nunca. El Código de Ética prohíbe recibir cualquier regalo o remuneración por nuestros servicios o trato especial."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Consecuencias",
+      "title": "La ruta de mis responsabilidades",
+      "body": "Es una serie de intervenciones que ayudan a evitar y corregir acciones que incumplan el Reglamento Interno de Trabajo y/o el Código de Ética de Inter-Con.",
+      "bullets": [
+        "1. Amonestación escrita + descuento del día no asistido y proporcional al bono de asistencia.",
+        "2. Suspensión de 1 día sin goce de salario.",
+        "3. Suspensión de 2 días sin goce de salario.",
+        "4. Rescisión de contrato."
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Ordena la ruta de responsabilidades",
+      "item": {
+        "type": "order",
+        "prompt": "Ordena la ruta de responsabilidades, de la primera intervención a la más grave.",
+        "steps": [
+          { "id": "1", "text": "Amonestación escrita" },
+          { "id": "2", "text": "Suspensión de 1 día sin goce de salario" },
+          { "id": "3", "text": "Suspensión de 2 días sin goce de salario" },
+          { "id": "4", "text": "Rescisión de contrato" }
+        ],
+        "explanation": "Así escala la ruta de responsabilidades ante incumplimientos del Código de Ética."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Consignas generales",
+      "title": "Lo que nunca debe faltar en tu servicio",
+      "bullets": [
+        "Inicio mis labores 15 minutos antes de mi hora de entrada.",
+        "Nunca abandono el servicio sin ser relevado.",
+        "Trabajo debidamente aseado y uniformado.",
+        "Cumplo en todo momento las consignas de mi puesto.",
+        "Respeto siempre las órdenes de mis superiores.",
+        "Reporto de inmediato cualquier anomalía.",
+        "Organizo mi caseta, puesto y cuido mi equipo de trabajo.",
+        "Nunca duermo en servicio ni me presento con aliento alcohólico."
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Vistiendo con seguridad",
+      "title": "Nuestro uniforme: comando, empresarial y civil",
+      "image": "assets/images/photos/uniforme-empresarial.jpeg",
+      "body": "El uniforme simboliza identificación, imagen profesional, seguridad y protección personal, cumplimiento normativo, responsabilidad y compromiso. Revísalo, cuídalo: es tu herramienta de trabajo y no tiene costo. El cambio de uniforme es cada 6 meses."
+    },
+    {
+      "kind": "quiz",
+      "title": "Cuidado de la imagen",
+      "item": {
+        "type": "mcq",
+        "prompt": "¿Cuál de las siguientes NO forma parte del cuidado de la imagen en el uniforme?",
+        "options": [
+          { "id": "a", "text": "Uniforme limpio y planchado" },
+          { "id": "b", "text": "Usar piercings, aretes o pulseras vistosas" },
+          { "id": "c", "text": "Zapatos limpios y lustrados" }
+        ],
+        "correctId": "b",
+        "explanation": "No se permite el uso de piercings, aretes, pulseras ni collares en ninguna modalidad de uniforme."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Identificación obligatoria",
+      "title": "Tu credencial",
+      "body": "El artículo 33, fracción V de la Ley Federal de Seguridad Privada nos obliga a portar la identificación en todo momento durante el servicio."
+    },
+    {
+      "kind": "video",
+      "title": "Corrupción y soborno",
+      "caption": "¿Te han intentado sobornar y no sabes qué hacer? Descubre cómo identificar y abordar estas situaciones.",
+      "video": {
+        "id": "video-soborno",
+        "title": "Corrupción y soborno",
+        "provider": "drive",
+        "url": "https://drive.google.com/file/d/1XWXBYFRAKWjiNsT4EMgRZs1zsDY_bCKz/view?usp=drive_link",
+        "poster": "assets/images/photos/hero-asi-trabajamos.jpeg",
+        "qr": "assets/images/qr/video-soborno.png"
+      }
+    },
+    {
+      "kind": "quiz",
+      "title": "Simulación: soborno en el acceso",
+      "item": {
+        "type": "scenario",
+        "prompt": "Simulación",
+        "scene": "Un proveedor frecuente te ofrece $500 pesos para que lo dejes entrar sin registrarse en la bitácora, \"total, ya me conoces\". ¿Qué haces?",
+        "choices": [
+          { "id": "a", "text": "Rechazas el dinero, exiges el registro habitual y reportas el intento de soborno a tu supervisor.", "correct": true, "feedback": "Correcto. Rechazar y reportar protege tu integridad y la del servicio: aceptar sería corrupción." },
+          { "id": "b", "text": "Aceptas el dinero, total es una persona conocida y no pasa nada.", "correct": false, "feedback": "Esto es soborno. Aceptarlo compromete tu ética, tu empleo y expone al cliente a un riesgo real." },
+          { "id": "c", "text": "Lo dejas pasar sin dinero, solo para no hacer olas.", "correct": false, "feedback": "Aun sin recibir el pago, saltarte el protocolo de registro es una falla grave de seguridad." }
+        ]
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Seguridad de la información",
+      "title": "Datos que debemos proteger",
+      "body": "Los datos sensibles requieren un nivel de protección más alto: su uso o divulgación indebida puede generar discriminación o afectar la integridad, seguridad o privacidad de una persona.",
+      "bullets": [
+        "🪪 Identificaciones y credenciales", "📒 Bitácoras y reportes", "💻 Equipos de cómputo y servidores",
+        "🔑 Llaves, tarjetas de acceso y contraseñas", "🚪 Sistemas de control de accesos"
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Implicaciones legales",
+      "item": {
+        "type": "mcq",
+        "prompt": "Según el Código Penal Federal (Art. 211 bis al 211 bis 7), ¿qué sanción puede aplicar por el uso indebido de datos personales?",
+        "options": [
+          { "id": "a", "text": "Solo una llamada de atención verbal" },
+          { "id": "b", "text": "Multas y hasta prisión, según el caso" },
+          { "id": "c", "text": "No existe ninguna sanción legal" }
+        ],
+        "correctId": "b",
+        "explanation": "Las sanciones van de 50 a 600 días multa (según la UMA) y de 3 meses hasta 4 años de prisión."
+      }
+    },
+    {
+      "kind": "video",
+      "title": "Cómo nos roban información",
+      "caption": "OBSERVAR → DETECTAR → REPORTAR: este es nuestro protocolo ante filtraciones de información.",
+      "video": {
+        "id": "video-filtracion-info",
+        "title": "Protocolo ante filtraciones de información",
+        "provider": "drive",
+        "url": "https://drive.google.com/file/d/1hCoBAU1HfHCfhpsuFoKzccsjHWlag7NI/view?usp=drive_link",
+        "poster": "assets/images/photos/hero-marco-legal.jpeg",
+        "qr": "assets/images/qr/video-filtracion-info.png"
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Llamadas de engaño",
+      "title": "Extorsión telefónica",
+      "body": "Con las llamadas de engaño, los delincuentes buscan obtener datos sensibles, horarios, nombres, movimientos o accesos. Un guardia atento puede bloquear la fuga de información y evitar riesgos.",
+      "bullets": [
+        "🚫 No proporciones información.",
+        "📝 Registra la hora y el número.",
+        "📣 Notifica de inmediato al supervisor.",
+        "📋 Sigue siempre el protocolo interno."
+      ]
+    },
+    {
+      "kind": "quiz",
+      "title": "Simulación: llamada de extorsión",
+      "item": {
+        "type": "scenario",
+        "timerSeconds": 25,
+        "scene": "⏱ Suena el teléfono de la caseta. Una voz alterada dice ser \"comandante\" y te pide, con urgencia, el nombre completo y horario del jefe de servicio \"para una diligencia\". ¿Qué haces?",
+        "choices": [
+          { "id": "a", "text": "No proporcionas ningún dato, registras hora y número, y notificas de inmediato a tu supervisor.", "correct": true, "feedback": "Correcto: así rompes el patrón de la llamada de engaño y activas el protocolo interno." },
+          { "id": "b", "text": "Le das el nombre y horario porque dice ser autoridad y suena urgente.", "correct": false, "feedback": "Nunca compartas información solo porque alguien afirma tener autoridad por teléfono: valida siempre por la vía oficial." },
+          { "id": "c", "text": "Cuelgas sin registrar nada.", "correct": false, "feedback": "Colgar no basta: siempre registra la hora, el número y notifica a tu supervisor para dar seguimiento." }
+        ]
+      }
+    },
+    {
+      "kind": "drive",
+      "title": "Herramientas digitales del servicio",
+      "body": "IC-Asistencia (registro con reconocimiento facial) y Human WorkSocial (recibos de nómina, vacaciones y capacitaciones) son las apps que usarás en tu día a día. Consulta los tutoriales completos en esta carpeta.",
+      "url": "https://drive.google.com/drive/folders/1ppOOrY2NDdCX_oX5Cwl2Sn3O3YKZuHeE",
+      "qr": "assets/images/qr/video-humanwork-social.png"
+    },
+    {
+      "kind": "quiz",
+      "title": "Selecciona el ícono correcto",
+      "item": {
+        "type": "imageselect",
+        "prompt": "¿Cuál ícono corresponde al registro de asistencia con reconocimiento facial (IC-Asistencia)?",
+        "options": [
+          { "id": "a", "img": "assets/images/photos/icon-ic-asistencia.png", "label": "IC-Asistencia" },
+          { "id": "b", "img": "assets/images/photos/logo-ic.png", "label": "Logo Inter-Con" }
+        ],
+        "correctId": "a",
+        "explanation": "IC-Asistencia es la app de registro de asistencia con reconocimiento facial disponible en el teléfono de tu servicio."
+      }
+    }
+  ],
+  "simulation": {
+    "title": "Simulación integradora: ética en el servicio",
+    "intro": "Un mismo turno, tres decisiones. Pondrás en práctica todo lo aprendido sobre conducta, uniforme y protección de la información.",
+    "scenes": [
+      {
+        "type": "scenario",
+        "scene": "Escena 1 · Inicio de turno: llegas 20 minutos tarde porque el tráfico estuvo pesado. Tu compañero ya se quiere ir. ¿Qué haces?",
+        "choices": [
+          { "id": "a", "text": "Te disculpas, tomas el puesto de inmediato y reportas tu retraso a tu supervisor.", "correct": true, "feedback": "Bien. La puntualidad es una consigna clave, y ser transparente con tu supervisor mantiene la confianza." },
+          { "id": "b", "text": "Le pides a tu compañero que no diga nada del retraso.", "correct": false, "feedback": "Ocultar información rompe la confianza y el reglamento interno de trabajo." }
+        ]
+      },
+      {
+        "type": "scenario",
+        "scene": "Escena 2 · Un visitante frecuente te pide \"saltarte\" el registro en bitácora porque ya lo conoces bien. ¿Qué haces?",
+        "choices": [
+          { "id": "a", "text": "Explicas amablemente que el registro aplica para todos sin excepción, y lo registras.", "correct": true, "feedback": "Correcto. El control de accesos aplica siempre, sin excepciones basadas en confianza personal." },
+          { "id": "b", "text": "Lo dejas pasar sin registro para no incomodarlo.", "correct": false, "feedback": "Esto compromete la seguridad del inmueble y viola el protocolo de control de accesos." }
+        ]
+      },
+      {
+        "type": "scenario",
+        "scene": "Escena 3 · Fin de turno: encuentras una USB olvidada con el logo de un cliente en el piso de la caseta. ¿Qué haces?",
+        "choices": [
+          { "id": "a", "text": "La resguardas, la reportas y la entregas a tu supervisor, documentando el hallazgo.", "correct": true, "feedback": "Excelente: proteges la seguridad de la información siguiendo el protocolo OBSERVAR-DETECTAR-REPORTAR." },
+          { "id": "b", "text": "La conectas a tu celular para ver qué contiene.", "correct": false, "feedback": "Nunca conectes dispositivos desconocidos: podrías comprometer datos sensibles o dispositivos del cliente." }
+        ]
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "type": "truefalse",
+      "prompt": "Un guardia puede recibir propinas si el visitante insiste mucho.",
+      "correctBool": false,
+      "explanation": "Nunca. Está prohibido recibir cualquier regalo o remuneración por el servicio."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál es la primera intervención dentro de la ruta de responsabilidades?",
+      "options": [{ "id": "a", "text": "Rescisión de contrato" }, { "id": "b", "text": "Amonestación escrita" }, { "id": "c", "text": "Suspensión de 2 días" }],
+      "correctId": "b",
+      "explanation": "La ruta comienza con una amonestación escrita antes de escalar a suspensiones o rescisión."
+    },
+    {
+      "type": "scenario",
+      "scene": "Recibes una llamada de alguien que dice ser \"jefe de zona\" y pide el horario de entrada del supervisor. ¿Qué haces?",
+      "choices": [
+        { "id": "a", "text": "No das información, registras el número y notificas a tu supervisor real.", "correct": true, "feedback": "Correcto: así se sigue el protocolo ante llamadas de engaño." },
+        { "id": "b", "text": "Le das el horario porque insiste en que es urgente.", "correct": false, "feedback": "Nunca compartas información solo por presión o urgencia aparente." }
+      ]
+    },
+    {
+      "type": "fillblank",
+      "prompt": "Completa:",
+      "template": "El artículo 33, fracción V de la LFSP nos obliga a portar la ___ en todo momento.",
+      "answer": "identificación",
+      "wordbank": ["identificación", "credencial deportiva", "chamarra"],
+      "explanation": "Debemos portar nuestra identificación de la empresa en todo momento durante el servicio."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Qué debes hacer si encuentras un objeto con información sensible de un cliente?",
+      "options": [
+        { "id": "a", "text": "Resguardarlo y reportarlo a tu supervisor" },
+        { "id": "b", "text": "Revisarlo tú mismo primero" },
+        { "id": "c", "text": "Dejarlo donde estaba y no decir nada" }
+      ],
+      "correctId": "a",
+      "explanation": "El protocolo es observar, detectar y reportar cualquier hallazgo relacionado con información sensible."
+    }
+  ]
+}

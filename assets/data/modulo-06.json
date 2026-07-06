@@ -1,0 +1,135 @@
+{
+  "id": "modulo-06",
+  "order": 6,
+  "title": "Guía Rápida de la Operación",
+  "subtitle": "Control de accesos y más",
+  "hero": "assets/images/photos/hero-operacion.jpeg",
+  "estimatedMinutes": 10,
+  "xpTotal": 100,
+  "intro": {
+    "text": "Hay 4 actividades fundamentales que todo elemento debe dominar: comunicación, control de accesos, elaboración de reportes y recorridos de vigilancia."
+  },
+  "learningPoints": [
+    "Uso correcto del radio y alfabeto fonético",
+    "Pasos para el control de accesos peatonal y vehicular",
+    "Cómo elaborar un buen reporte de novedades",
+    "Para qué sirven los recorridos de vigilancia"
+  ],
+  "steps": [
+    {
+      "kind": "info",
+      "eyebrow": "Comunicación",
+      "title": "Tu radio y el alfabeto fonético",
+      "body": "El alfabeto fonético permite transmitir información de manera precisa, discreta y libre de errores, especialmente en situaciones de ruido o interferencia, ayudando también a mantener la confidencialidad de datos sensibles.",
+      "bullets": [
+        "🔴 Rojo fijo: estás transmitiendo.",
+        "🔴 Rojo intermitente: estás recibiendo una transmisión.",
+        "🎚 Botón de canales y control de volumen.",
+        "🎙 Barra micro: para transmitir."
+      ]
+    },
+    {
+      "kind": "video",
+      "title": "Control de accesos peatonal",
+      "caption": "Identificación → Autorización → Registro → Revisión → Acreditación → Término de la visita.",
+      "video": {
+        "id": "video-control-accesos",
+        "title": "Control de accesos peatonal",
+        "provider": "drive",
+        "url": "https://drive.google.com/file/d/18HuCndwUWDLW2KoMs1im9Y13iOv_r9aU/view?usp=drive_link",
+        "poster": "assets/images/photos/hero-operacion.jpeg",
+        "qr": "assets/images/qr/video-control-accesos.png"
+      }
+    },
+    {
+      "kind": "quiz",
+      "title": "Ordena el control de accesos peatonal",
+      "item": {
+        "type": "order",
+        "prompt": "Ordena los pasos del control de accesos peatonal.",
+        "steps": [
+          { "id": "1", "text": "Identificación: se pide identificación oficial" },
+          { "id": "2", "text": "Autorización: se contacta a la persona buscada" },
+          { "id": "3", "text": "Registro: el visitante se registra en bitácora" },
+          { "id": "4", "text": "Revisión: se realiza la revisión correspondiente" },
+          { "id": "5", "text": "Acreditación: se entrega el gafete" },
+          { "id": "6", "text": "Término de visita: se retira el gafete y se registra la salida" }
+        ],
+        "explanation": "Este es el flujo completo del control de accesos peatonal, del ingreso a la salida."
+      }
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Vehículos",
+      "title": "Control de accesos vehicular",
+      "bullets": [
+        "Indica al conductor que se detenga.",
+        "Si está autorizado, abre la puerta y salúdalo.",
+        "Si es visitante autorizado, revisa el vehículo (incluida la cajuela).",
+        "Si detectas algo no permitido, informa al cliente y a tu superior.",
+        "Espera indicaciones antes de dejarlo pasar.",
+        "Regístralo en el formato de control de visitantes."
+      ]
+    },
+    {
+      "kind": "info",
+      "eyebrow": "Reportes",
+      "title": "Bitácora vs. Reporte de novedades",
+      "bullets": [
+        "📒 Bitácora: reporta las actividades diarias.",
+        "📋 Reporte de novedades: reporta actividades fuera de lo común, con mayor detalle."
+      ],
+      "body": "Un buen reporte es objetivo, veraz, oportuno y concreto, y responde: ¿qué sucedió?, ¿cuándo?, ¿dónde?, ¿cómo? y ¿quién está involucrado?"
+    },
+    {
+      "kind": "video",
+      "title": "Cómo llenar el reporte de novedades",
+      "caption": "Para quién va dirigido, la fecha del incidente, el asunto, tu nombre completo y la descripción de lo sucedido.",
+      "video": {
+        "id": "video-reporte-novedades",
+        "title": "Reporte de novedades",
+        "provider": "drive",
+        "url": "https://drive.google.com/file/d/1TERHyB3zezMKQ1rmqDN62nSGIo59Ahvf/view?usp=drive_link",
+        "poster": "assets/images/photos/hero-operacion.jpeg",
+        "qr": "assets/images/qr/video-reporte-novedades.png"
+      }
+    },
+    {
+      "kind": "video",
+      "title": "Recorridos de vigilancia",
+      "caption": "Los recorridos permiten detectar a tiempo cualquier anomalía o riesgo, reforzando el control de áreas críticas.",
+      "video": {
+        "id": "video-recorridos-vigilancia",
+        "title": "Recorridos de vigilancia",
+        "provider": "drive",
+        "url": "https://drive.google.com/file/d/1f3cc8_7nRlqC9BibNWGpE-lzITW2rjS0/view?usp=drive_link",
+        "poster": "assets/images/photos/hero-operacion.jpeg",
+        "qr": "assets/images/qr/video-recorridos-vigilancia.png"
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "type": "mcq",
+      "prompt": "¿Qué significa que el indicador de tu radio esté en rojo intermitente?",
+      "options": [{ "id": "a", "text": "Estás transmitiendo" }, { "id": "b", "text": "Estás recibiendo una transmisión" }, { "id": "c", "text": "El radio está apagado" }],
+      "correctId": "b",
+      "explanation": "Rojo intermitente indica que estás recibiendo una transmisión; rojo fijo indica que tú transmites."
+    },
+    {
+      "type": "fillblank",
+      "prompt": "Completa:",
+      "template": "Un buen reporte debe ser objetivo, veraz, oportuno y ___.",
+      "answer": "concreto",
+      "wordbank": ["concreto", "extenso", "anónimo"],
+      "explanation": "Las 4 características de un buen reporte son: objetivo, veraz, oportuno y concreto."
+    },
+    {
+      "type": "mcq",
+      "prompt": "¿Cuál es el último paso del control de accesos peatonal?",
+      "options": [{ "id": "a", "text": "Identificación" }, { "id": "b", "text": "Término de la visita" }, { "id": "c", "text": "Registro" }],
+      "correctId": "b",
+      "explanation": "El proceso termina con el término de la visita: se retira el gafete y se registra la salida."
+    }
+  ]
+}
